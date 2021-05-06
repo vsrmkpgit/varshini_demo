@@ -19,7 +19,7 @@ void loop()
 {
    
     float a = analogRead(33);
-   float b = ((a*3.3)/4095)+0.15;
+    float b = ((a*3.3)/4095)+0.15;
     Serial.print("Voltage:");
     Serial.println(b);
     delay(200);
