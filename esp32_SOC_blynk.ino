@@ -10,7 +10,7 @@ char pass[] = "vsrm@123";
 
 void setup()
 { 
-  Serial.begin(9600);
+  Serial.begin(115200);
   Serial.println("Interfacfing arduino with Esp32");
   Blynk.begin(auth, ssid, pass);
 }
